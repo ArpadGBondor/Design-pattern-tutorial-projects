@@ -9,6 +9,8 @@ I just wanted to create the example projects myself, to understand design patter
 ### 1.2. Factory
 ### 1.3. Prototype
 ### 1.4. Singleton
+ - [02](https://youtu.be/YGGg9ecy0K4)
+ - [03](https://youtu.be/LypTOnfkfvA)
 ## 2. Structural patterns
 ### 2.1 Adapter
 ### 2.2. Bridge

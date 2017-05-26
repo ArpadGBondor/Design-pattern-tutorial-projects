@@ -48,15 +48,18 @@ Provide a way to access the elements of an aggregate object sequentially without
 Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
 ### 3.6. Memento
 Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
-### 3.7. Observer or Publish/Subscribe
+### 3.7. Null object
+Avoid null references by providing a default object.
+ - [Michael - The Null Object Pattern](https://youtu.be/RKjpD227tCo)
+### 3.8. Observer or Publish/Subscribe
 Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
-### 3.8. State
+### 3.9. State
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
-### 3.9. Strategy
+### 3.10. Strategy
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
  - [Michael - The Strategy Pattern](https://youtu.be/94t2ayF1l3o)
-### 3.10. Template method
+### 3.11. Template method
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
-### 3.11. Visitor
+### 3.12. Visitor
 Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
 

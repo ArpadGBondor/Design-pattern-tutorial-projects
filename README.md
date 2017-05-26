@@ -18,8 +18,8 @@ Define an interface for creating a single object, but let subclasses decide whic
 Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
 ### 1.4. Singleton
 Ensure a class has only one instance, and provide a global point of access to it.
- - [kudvenkat 02](https://youtu.be/YGGg9ecy0K4)
- - [kudvenkat 03](https://youtu.be/LypTOnfkfvA)
+ - [kudvenkat - 02](https://youtu.be/YGGg9ecy0K4)
+ - [kudvenkat - 03](https://youtu.be/LypTOnfkfvA)
 ## 2. Structural patterns
 ### 2.1 Adapter/Wrapper/Translator
 Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
@@ -48,14 +48,18 @@ Provide a way to access the elements of an aggregate object sequentially without
 Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
 ### 3.6. Memento
 Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
-### 3.7. Observer or Publish/Subscribe
+### 3.7. Null object
+Avoid null references by providing a default object.
+ - [Michael - The Null Object Pattern](https://youtu.be/RKjpD227tCo)
+### 3.8. Observer or Publish/Subscribe
 Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
-### 3.8. State
+### 3.9. State
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
-### 3.9. Strategy
+### 3.10. Strategy
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
-### 3.10. Template method
+ - [Michael - The Strategy Pattern](https://youtu.be/94t2ayF1l3o)
+### 3.11. Template method
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
-### 3.11. Visitor
+### 3.12. Visitor
 Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
 

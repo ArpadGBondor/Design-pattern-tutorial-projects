@@ -54,6 +54,7 @@ Define a one-to-many dependency between objects where a state change in one obje
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
 ### 3.9. Strategy
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+[Michael Strategy Pattern Tutorial](https://youtu.be/94t2ayF1l3o)
 ### 3.10. Template method
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 ### 3.11. Visitor

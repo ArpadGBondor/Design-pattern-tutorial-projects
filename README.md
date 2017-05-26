@@ -53,6 +53,7 @@ Avoid null references by providing a default object.
  - [Michael - The Null Object Pattern](https://youtu.be/RKjpD227tCo)
 ### 3.8. Observer or Publish/Subscribe
 Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+ - [Michael - The Observer Pattern](https://youtu.be/9eoY5fBN12Q)
 ### 3.9. State
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
 ### 3.10. Strategy

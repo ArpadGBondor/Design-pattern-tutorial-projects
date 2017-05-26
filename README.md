@@ -44,6 +44,7 @@ Encapsulate a request as an object, thereby allowing for the parameterization of
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 ### 3.4. Iterator
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+ - [Michael - The Iterator Pattern](https://youtu.be/Ns_BPBnPHIU)
 ### 3.5. Mediator
 Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
 ### 3.6. Memento

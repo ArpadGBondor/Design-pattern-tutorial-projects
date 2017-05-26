@@ -8,7 +8,7 @@ I just wanted to create the example projects myself, to understand design patter
 [Design pattern tutorial videos by Michael](https://www.youtube.com/playlist?list=PL8C53D99ABAD3F4C8)
 
 # Design patterns
-A pattern is a way to describe a tested, proven solution or approach to a common design problem.
+A pattern is a way to describe a tested, proven solution or approach to a common design problem within a given context in software design.
 ## 1. Creational patterns
 ### 1.1. Builder
 Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.

@@ -18,8 +18,8 @@ Define an interface for creating a single object, but let subclasses decide whic
 Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
 ### 1.4. Singleton
 Ensure a class has only one instance, and provide a global point of access to it.
- - [kudvenkat 02](https://youtu.be/YGGg9ecy0K4)
- - [kudvenkat 03](https://youtu.be/LypTOnfkfvA)
+ - [kudvenkat - 02](https://youtu.be/YGGg9ecy0K4)
+ - [kudvenkat - 03](https://youtu.be/LypTOnfkfvA)
 ## 2. Structural patterns
 ### 2.1 Adapter/Wrapper/Translator
 Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
@@ -54,7 +54,7 @@ Define a one-to-many dependency between objects where a state change in one obje
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
 ### 3.9. Strategy
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
-[Michael Strategy Pattern Tutorial](https://youtu.be/94t2ayF1l3o)
+ - [Michael - The Strategy Pattern](https://youtu.be/94t2ayF1l3o)
 ### 3.10. Template method
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 ### 3.11. Visitor

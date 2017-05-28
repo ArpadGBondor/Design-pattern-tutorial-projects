@@ -32,6 +32,7 @@ Attach additional responsibilities to an object dynamically keeping the same int
  - [Michael - The Decorator Pattern - Warning Audio spikes! :(](https://youtu.be/nk9Z1vwO3RI)
 ### 2.5. Facade
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+ - [Michael - The Facade Pattern](https://youtu.be/WLjvNpP6yeQ)
 ### 2.6. Flyweight
 Use sharing to support large numbers of similar objects efficiently.
 ### 2.7. Proxy

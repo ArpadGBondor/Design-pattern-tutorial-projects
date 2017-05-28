@@ -23,6 +23,7 @@ Ensure a class has only one instance, and provide a global point of access to it
 ## 2. Structural patterns
 ### 2.1 Adapter/Wrapper/Translator
 Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
+ - [Michael - The Adapter Pattern](https://youtu.be/TriX8OiEhOU)
 ### 2.2. Bridge
 Decouple an abstraction from its implementation allowing the two to vary independently.	
 ### 2.3. Composite

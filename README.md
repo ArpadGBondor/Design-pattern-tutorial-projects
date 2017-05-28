@@ -1,4 +1,4 @@
-The blog, and the videos are not belong to me. 
+The videos are not belong to me. 
 I just wanted to create the example projects myself, to understand design patterns better.
 # Sources:
 [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
@@ -29,6 +29,7 @@ Decouple an abstraction from its implementation allowing the two to vary indepen
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 ### 2.4. Decorator
 Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
+ - [Michael - The Decorator Pattern - Warning Audio spikes! :(](https://youtu.be/nk9Z1vwO3RI)
 ### 2.5. Facade
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
 ### 2.6. Flyweight

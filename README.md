@@ -67,6 +67,7 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
  - [Michael - The Strategy Pattern](https://youtu.be/94t2ayF1l3o)
 ### 3.11. Template method
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+ - [Michael - The Template Method Pattern](https://youtu.be/zeRSYj-bVqo)
 ### 3.12. Visitor
 Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
 

@@ -55,6 +55,7 @@ Provide a way to access the elements of an aggregate object sequentially without
 Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
 ### 3.6. Memento
 Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
+ - [Michael - The Memento Pattern](https://youtu.be/OfD9QBZ0Qfc)
 ### 3.7. Null object
 Avoid null references by providing a default object.
  - [Michael - The Null Object Pattern](https://youtu.be/RKjpD227tCo)

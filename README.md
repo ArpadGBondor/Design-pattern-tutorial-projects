@@ -29,6 +29,7 @@ Convert the interface of a class into another interface clients expect. An adapt
 Decouple an abstraction from its implementation allowing the two to vary independently.	
 ### 2.3. Composite
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+ - [Michael - The Composite Pattern](https://youtu.be/mbNe9ioINHU)
 ### 2.4. Decorator
 Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
  - [Michael - The Decorator Pattern - Warning Audio spikes! :(](https://youtu.be/nk9Z1vwO3RI)

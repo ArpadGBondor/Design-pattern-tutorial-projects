@@ -7,6 +7,8 @@ I just wanted to create the example projects myself, to understand design patter
 
 [Design pattern tutorial videos by Michael](https://www.youtube.com/playlist?list=PL8C53D99ABAD3F4C8)
 
+[Design pattern tutorial videos by Scott Lilly](https://www.youtube.com/playlist?list=PL3SyMdYUavDjBplxSmo2uC5sA9_r1nRyT)
+
 # Design patterns
 A pattern is a way to describe a tested, proven solution or approach to a common design problem within a given context in software design.
 ## 1. Creational patterns
@@ -14,6 +16,7 @@ A pattern is a way to describe a tested, proven solution or approach to a common
 Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
 ### 1.2. Factory
 Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses 
+ - [Scott Lilly - C# Design Patterns: The Factory Pattern](https://youtu.be/Y5X4odRW00M)
 ### 1.3. Prototype
 Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
  - [Michael - The Prototype Pattern](https://youtu.be/jFquZRf5jIo)

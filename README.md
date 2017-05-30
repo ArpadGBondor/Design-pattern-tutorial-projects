@@ -25,6 +25,7 @@ Ensure a class has only one instance, and provide a global point of access to it
  - [kudvenkat - 02](https://youtu.be/YGGg9ecy0K4)
  - [kudvenkat - 03](https://youtu.be/LypTOnfkfvA)
  - [Michael - The Singleton Pattern](https://youtu.be/xgkbirZrwAs)
+ - [Scott Lilly - C# Design Patterns: The Singleton Pattern](https://youtu.be/nAKN48JiGyQ) <- The best so far.
 ## 2. Structural patterns
 ### 2.1 Adapter/Wrapper/Translator
 Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.

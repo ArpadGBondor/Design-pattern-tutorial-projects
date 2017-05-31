@@ -27,7 +27,7 @@ Ensure a class has only one instance, and provide a global point of access to it
  - [Michael - The Singleton Pattern](https://youtu.be/xgkbirZrwAs)
  - [Scott Lilly - C# Design Patterns: The Singleton Pattern](https://youtu.be/nAKN48JiGyQ) <- The best so far.
 ## 2. Structural patterns
-### 2.1 Adapter/Wrapper/Translator
+### 2.1 Adapter/Translator
 Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
  - [Michael - The Adapter Pattern](https://youtu.be/TriX8OiEhOU)
 ### 2.2. Bridge
@@ -38,9 +38,10 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 ### 2.4. Decorator
 Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
  - [Michael - The Decorator Pattern - Warning Audio spikes! :(](https://youtu.be/nk9Z1vwO3RI)
-### 2.5. Facade
+### 2.5. Facade/Wrapper
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
  - [Michael - The Facade Pattern](https://youtu.be/WLjvNpP6yeQ)
+ - [Scott Lilly - C# Design Patterns: The Wrapper/Facade Pattern](https://youtu.be/a2Qh10YjP6Y)
 ### 2.6. Flyweight
 Use sharing to support large numbers of similar objects efficiently.
 ### 2.7. Proxy

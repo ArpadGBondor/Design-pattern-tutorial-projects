@@ -92,7 +92,11 @@ Represent an operation to be performed on the elements of an object structure. V
 ## 4. Concurrency patterns
  - These type of design patterns deal with the multi-threaded programming paradigm.
 ### 4.1. Active object
+ - [Wiki](https://en.wikipedia.org/wiki/Active_object)
 ### 4.2. Balking
+ - [Wiki](https://en.wikipedia.org/wiki/Balking_pattern)
+### 4.3. Barrier
+ - [Wiki]("https://en.wikipedia.org/wiki/Barrier_(computer_science)")
 ### 4.3. Binding properties
 ### 4.4. Double-checked locking
 ### 4.5. Event-based asynchronous

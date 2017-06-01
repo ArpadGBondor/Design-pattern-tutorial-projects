@@ -97,29 +97,57 @@ Represent an operation to be performed on the elements of an object structure. V
  - [Wiki](https://en.wikipedia.org/wiki/Balking_pattern)
 ### 4.3. Barrier
  - [Wiki](https://en.wikipedia.org/wiki/Barrier_(computer_science))
-### 4.3. Binding properties
-### 4.4. Double-checked locking
-### 4.5. Event-based asynchronous
-### 4.6. Guarded suspension
-### 4.7. Join
-### 4.8. Lock
-### 4.9. Monitor
-### 4.10. Proactor
-### 4.11. Reactor
-### 4.12. Read/Write lock
-### 4.13. Scheulder
-### 4.14. Thread pool
-### 4.15. Thread-local pool
+### 4.4. Binding properties
+ - [Wiki](https://en.wikipedia.org/wiki/Binding_properties_pattern)
+### 4.5. Double-checked locking
+ - [Wiki](https://en.wikipedia.org/wiki/Double-checked_locking)
+### 4.6. Event-based asynchronous method invocation (AMI)
+ - [Wiki](https://en.wikipedia.org/wiki/Asynchronous_method_invocation)
+### 4.7. Guarded suspension
+ - [Wiki](https://en.wikipedia.org/wiki/Guarded_suspension)
+### 4.8. Join
+ - [Wiki](https://en.wikipedia.org/wiki/Join-pattern)
+### 4.9. Lock
+ - [Wiki](https://en.wikipedia.org/wiki/Lock_(computer_science))
+### 4.10. Monitor
+ - [Wiki](https://en.wikipedia.org/wiki/Monitor_(synchronization))
+### 4.11. Proactor
+ - [Wiki](https://en.wikipedia.org/wiki/Proactor_pattern)
+### 4.12. Reactor
+ - [Wiki](https://en.wikipedia.org/wiki/Reactor_pattern)
+### 4.13. Read/Write lock
+ - [Wiki](https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock)
+### 4.14. Scheulder
+ - [Wiki](https://en.wikipedia.org/wiki/Scheduling_(computing))
+### 4.15. Thread pool
+ - [Wiki](https://en.wikipedia.org/wiki/Thread_pool)
+### 4.16. Thread-local pool
+ - [Wiki](https://en.wikipedia.org/wiki/Thread-local_storage)
 ## 5. Architectural patterns
  - An architectural pattern is a concept that solves and delineates some essential cohesive elements of a software architecture. Countless different architectures may implement the same pattern and share the related characteristics.
 ### 5.1. Front controller
+ - [Wiki](https://en.wikipedia.org/wiki/Front_controller)
 ### 5.2. Interceptor
-### 5.3. Publish-subscribe
-### 5.4. Naked objects
-### 5.5. Service locator
-### 5.6. Active record
-### 5.7. Identity map
-### 5.8. Data access object
-### 5.9. Data transfer object
-### 5.10. ADR
-### 5.11. Inversion of control
+ - [Wiki](https://en.wikipedia.org/wiki/Interceptor_pattern)
+### 5.3. MVC
+ - [Wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+### 5.4. n-tier
+ - [Wiki](https://en.wikipedia.org/wiki/Multitier_architecture)
+### 5.5. Specification
+ - [Wiki](https://en.wikipedia.org/wiki/Specification_pattern)
+### 5.6. Publish-subscribe
+ - [Wiki](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+### 5.7. Naked objects
+ - [Wiki](https://en.wikipedia.org/wiki/Naked_objects)
+### 5.8. Service locator
+ - [Wiki](https://en.wikipedia.org/wiki/Service_locator_pattern)
+### 5.9. Active record
+ - [Wiki](https://en.wikipedia.org/wiki/Active_record_pattern)
+### 5.10. Identity map
+ - [Wiki](https://en.wikipedia.org/wiki/Identity_map_pattern)
+### 5.11. Data access object
+ - [Wiki](https://en.wikipedia.org/wiki/Data_access_object)
+### 5.12. Data transfer object
+ - [Wiki](https://en.wikipedia.org/wiki/Data_transfer_object)
+### 5.13. Inversion of control
+ - [Wiki](https://en.wikipedia.org/wiki/Inversion_of_control)

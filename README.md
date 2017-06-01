@@ -62,6 +62,7 @@ I just wanted to create the example projects myself, to understand design patter
 ### 3.2. Command
  - Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.
  - Video: [Michael - The Command Pattern](https://youtu.be/_3DHEIHxuMM)
+ - Video: [Scott Lilly - C# Design Patterns: The Command Pattern](https://youtu.be/t_frFWqrnJE)
 ### 3.3. Interpreter
  - Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 ### 3.4. Iterator

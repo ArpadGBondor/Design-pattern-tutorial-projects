@@ -85,6 +85,7 @@ I just wanted to create the example projects myself, to understand design patter
 ### 3.10. Strategy
  - Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
  - Video: [Michael - The Strategy Pattern](https://youtu.be/94t2ayF1l3o)
+ - Video: [Scott Lilly - C# Design Patterns: The Strategy Pattern](https://youtu.be/b4ssMlADWTM)
 ### 3.11. Template method
  - Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
  - Video: [Michael - The Template Method Pattern](https://youtu.be/zeRSYj-bVqo)

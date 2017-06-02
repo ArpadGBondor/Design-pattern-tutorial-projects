@@ -45,16 +45,19 @@ I just wanted to create the example projects myself, to understand design patter
 ### 2.3. Composite
  - Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
  - Video: [Michael - The Composite Pattern](https://youtu.be/mbNe9ioINHU)
-### 2.4. Decorator
+### 2.4. Composition over Inheritance / Composite reuse principle
+ - classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class.
+ - Video: [Scott Lilly - C# Design Patterns: Composition over Inheritance](https://youtu.be/pQm-BqK2fhc) <- The best so far.
+### 2.5. Decorator
  - Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
  - Video: [Michael - The Decorator Pattern - Warning Audio spikes! :(](https://youtu.be/nk9Z1vwO3RI)
-### 2.5. Facade/Wrapper
+### 2.6. Facade/Wrapper
  - Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
  - Video: [Michael - The Facade Pattern](https://youtu.be/WLjvNpP6yeQ)
  - Video: [Scott Lilly - C# Design Patterns: The Wrapper/Facade Pattern](https://youtu.be/a2Qh10YjP6Y)
-### 2.6. Flyweight
+### 2.7. Flyweight
  - Use sharing to support large numbers of similar objects efficiently.
-### 2.7. Proxy
+### 2.8. Proxy
  - Provide a surrogate or placeholder for another object to control access to it.
 ## 3. Behaviour patterns
  - These patterns identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.

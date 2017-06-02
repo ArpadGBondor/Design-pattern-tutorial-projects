@@ -84,6 +84,7 @@ I just wanted to create the example projects myself, to understand design patter
 ### 3.8. Observer or Publish/Subscribe
  - Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
  - Video: [Michael - The Observer Pattern](https://youtu.be/9eoY5fBN12Q)
+ - Video: [Scott Lilly - C# Design Patterns: Publish/Subscribe](https://youtu.be/D83e-GM_EnI)
 ### 3.9. State
  - Allow an object to alter its behavior when its internal state changes. The object will appear to change its class
 ### 3.10. Strategy

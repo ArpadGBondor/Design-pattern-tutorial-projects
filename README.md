@@ -144,6 +144,7 @@ I just wanted to create the example projects myself, to understand design patter
 ### 5.8. Service locator
  - [Wiki](https://en.wikipedia.org/wiki/Service_locator_pattern)
 ### 5.9. Active record
+ - The active record pattern is an approach to accessing data in a database. A database table or view is wrapped into a class. Thus, an object instance is tied to a single row in the table. After creation of an object, a new row is added to the table upon save. Any object loaded gets it's information from the database. When an object is updated, the corresponding row in the table is also updated. The wrapper class implements accessor methods or properties for each column in the table or view
  - [Wiki](https://en.wikipedia.org/wiki/Active_record_pattern)
  - Video: [Scott Lilly - C# Design Patterns: The Data Mapper pattern and the Active Record pattern](https://youtu.be/xlSZDw5j4GM)
 ### 5.10. Identity map
@@ -151,10 +152,13 @@ I just wanted to create the example projects myself, to understand design patter
 ### 5.11. Data access object
  - [Wiki](https://en.wikipedia.org/wiki/Data_access_object)
 ### 5.12. Date mapper
+ - A data mapper is a Data Access Layer that performs bidirectional transfer of data between a persistent data store (often a relational database) and an in-memory data representation (the domain layer). The goal of the pattern is to keep the in-memory representation and the persistent data store independent of each other, and the data mapper itself. The layer is composed of one or more mappers (or data access objects) performing the data transfer.
  - [Wiki](https://en.wikipedia.org/wiki/Data_mapper_pattern)
  - Video: [Scott Lilly - C# Design Patterns: The Data Mapper pattern and the Active Record pattern](https://youtu.be/xlSZDw5j4GM)
 ### 5.13. Data transfer object
  - [Wiki](https://en.wikipedia.org/wiki/Data_transfer_object)
 ### 5.14. Dependency Injection / Inversion of control
+ - Dependency injection is a technique whereby one object supplies the dependencies of another object. A dependency is an object that can be used (a service). An injection is the passing of a dependency to a dependent object (a client) that would use it. The service is made part of the client's state. Passing the service to the client, rather than allowing a client to build or find the service, is the fundamental requirement of the pattern. 
+ - The intent behind dependency injection is to decouple objects to the extent that no client code has to be changed simply because an object it depends on needs to be changed to a different one.
  - [Wiki](https://en.wikipedia.org/wiki/Inversion_of_control)
  - Video: [Scott Lilly - C# Design Patterns: The Dependency Injection Pattern](https://youtu.be/Ko1r9A8p-zo)

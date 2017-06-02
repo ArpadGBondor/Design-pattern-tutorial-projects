@@ -28,6 +28,7 @@ I just wanted to create the example projects myself, to understand design patter
 ### 1.3. Prototype
  - Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
  - Video: [Michael - The Prototype Pattern](https://youtu.be/jFquZRf5jIo)
+ - Video: [Scott Lilly - C# Design Patterns: The Prototype Pattern](https://youtu.be/cssLiHsnNI4) <- The best so far.
 ### 1.4. Singleton
  - Ensure a class has only one instance, and provide a global point of access to it.
  - Video: [kudvenkat - 02](https://youtu.be/YGGg9ecy0K4)

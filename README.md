@@ -155,5 +155,6 @@ I just wanted to create the example projects myself, to understand design patter
  - Video: [Scott Lilly - C# Design Patterns: The Data Mapper pattern and the Active Record pattern](https://youtu.be/xlSZDw5j4GM)
 ### 5.13. Data transfer object
  - [Wiki](https://en.wikipedia.org/wiki/Data_transfer_object)
-### 5.14. Inversion of control
+### 5.14. Dependency Injection / Inversion of control
  - [Wiki](https://en.wikipedia.org/wiki/Inversion_of_control)
+ - Video: [Scott Lilly - C# Design Patterns: The Dependency Injection Pattern](https://youtu.be/Ko1r9A8p-zo)

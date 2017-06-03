@@ -1,0 +1,19 @@
+﻿<Window x:Class="MVVM_tutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM_tutorial"
+        mc:Ignorable="d"
+        Title="MVVM Tutorial" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Button Name="btnNonPatternVersion" Grid.Row="0" Content="MVVM Pattern Non-pattern version" Margin="5" Click="btnNonPatternVersion_Click" />
+        <Button Name="btnPatternVersion" Grid.Row="1" Content="MVVM Pattern Pattern version" Margin="5" Click="btnPatternVersion_Click" />
+
+    </Grid>
+</Window>

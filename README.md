@@ -138,12 +138,14 @@ I just wanted to create the example projects myself, to understand design patter
  - [Wiki](https://en.wikipedia.org/wiki/Interceptor_pattern)
 ### 5.3. MVC
  - [Wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-### 5.4. n-tier
+### 5.4. MVVM / Model-view-viewmodel
+ - The MVVM pattern makes easier to separate the development of the user interface from the business logic.
+ - [Wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+ - Video: [Scott Lilly - C# Design Patterns: MVVM (Model-View-ViewModel)](https://youtu.be/oHxAIOxF1Ok)
+### 5.5. n-tier
  - [Wiki](https://en.wikipedia.org/wiki/Multitier_architecture)
-### 5.5. Specification
+### 5.6. Specification
  - [Wiki](https://en.wikipedia.org/wiki/Specification_pattern)
-### 5.6. Publish-subscribe
- - [Wiki](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
 ### 5.7. Naked objects
  - [Wiki](https://en.wikipedia.org/wiki/Naked_objects)
 ### 5.8. Service locator

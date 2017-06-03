@@ -22,6 +22,7 @@ I just wanted to create the example projects myself, to understand design patter
  - The basic form of object creation could result in design problems or added complexity to the design.
 ### 1.1. Builder
  - Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
+ - Video: [Scott Lilly - C# Design Patterns: The Builder Pattern](https://youtu.be/38qbJT8FTRU)
 ### 1.2. Factory
  - Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses 
  - Video: [Scott Lilly - C# Design Patterns: The Factory Pattern](https://youtu.be/Y5X4odRW00M)

@@ -1,0 +1,45 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using BuilderPattern.NonPattern;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BuilderPattern.NonPattern.Tests
+{
+    [TestClass()]
+    public class ReportTests
+    {
+        [TestMethod()]
+        public void Test_BuildReports()
+        {
+            DateTime now = DateTime.UtcNow;
+
+            Report currentMonthTaxReport =
+                new Report(
+                    new DateTime(now.Year, now.Month, 1),
+                    new DateTime(now.Year, now.Month, 1).AddMonths(1).AddSeconds(-1),
+                    false, true, Report.SortingMethod.ByTaxCategory);
+
+            Report currentYearTaxReport =
+                new Report(
+                    new DateTime(now.Year, 1, 1),
+                    new DateTime(now.Year, 12, 31),
+                    false, true, Report.SortingMethod.ByTaxCategory);
+
+            Report currentMonthCommissionReport =
+                new Report(
+                    new DateTime(now.Year, now.Month, 1),
+                    new DateTime(now.Year, now.Month, 1).AddMonths(1).AddSeconds(-1),
+                    false, false, Report.SortingMethod.BySalesPerson);
+
+            Report currentYearCommissionReport =
+                new Report(
+                    new DateTime(now.Year, 1, 1),
+                    new DateTime(now.Year, 12, 31),
+                    false, false, Report.SortingMethod.BySalesPerson);
+
+        }
+    }
+}
